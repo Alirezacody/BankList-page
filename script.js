@@ -258,20 +258,20 @@ const a = prompt('input your num a:');
 const b = prompt('input your num b:');
 const c = prompt('input your num c:');
 
-const calcDelta = function(a , b ,c){
-  const DELTA = (b**2) - (4*a*c);
-  console.log(DELTA);
-  console.log(a , b ,c);
-  if(DELTA > 0 ){
-    let answer1 = (-(b) + Math.sqrt(DELTA)) / (2*a);
-    let answer2 = (-(b) - Math.sqrt(DELTA))  /(2*a);
-    console.log(answer1 , answer2);
-  }else if(DELTA === 0){
-    let answer3 = -b / (2*a)
-    console.log(answer3);
-  }else{
-    alert('your num is not answer🚫');
-  }
-};
+// const calcDelta = function(a , b ,c){
+//   const DELTA = (b**2) - (4*a*c);
+//   console.log(DELTA);
+//   console.log(a , b ,c);
+//   if(DELTA > 0 ){
+//     let answer1 = (-(b) + Math.sqrt(DELTA)) / (2*a);
+//     let answer2 = (-(b) - Math.sqrt(DELTA))  /(2*a);
+//     console.log(answer1 , answer2);
+//   }else if(DELTA === 0){
+//     let answer3 = -b / (2*a)
+//     console.log(answer3);
+//   }else{
+//     alert('your num is not answer🚫');
+//   }
+// };
 
-calcDelta(a , b , c);
+// calcDelta(a , b , c);
