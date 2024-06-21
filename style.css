@@ -302,7 +302,7 @@ h2 {
   .operation.operation--transfer {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 65%;
     justify-content: space-between;
     margin-bottom: 1rem;
   }
