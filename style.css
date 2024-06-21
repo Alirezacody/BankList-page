@@ -290,3 +290,85 @@ h2 {
 .timer {
   font-weight: 600;
 }
+
+@media (max-width: 1200px) {
+  .app {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .movements {
+    grid-row: 3 / 4;
+  }
+
+  .summary {
+    grid-row: 4 / 5;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .balance {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .welcome {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    height: 4rem;
+  }
+
+  .login {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .login__input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .login__btn {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  .balance__label {
+    font-size: 1.8rem;
+  }
+
+  .balance__value {
+    font-size: 3rem;
+  }
+
+  .summary__label {
+    font-size: 1rem;
+  }
+
+  .summary__value {
+    font-size: 1.8rem;
+  }
+
+  .form__input {
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .form__btn {
+    font-size: 1.5rem;
+  }
+}
