@@ -291,25 +291,25 @@ h2 {
   font-weight: 600;
 }
 
+/* responsive code */
 @media (max-width: 1200px) {
   .app {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .operation.operation--transfer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
   }
 
   .movements {
-    grid-row: 3 / 4;
-  }
-
-  .summary {
-    grid-row: 4 / 5;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .balance {
-    flex-direction: column;
-    align-items: flex-start;
+    width: 100%;
+    height: 200px;
   }
 }
 
@@ -339,6 +339,19 @@ h2 {
 
   .login__btn {
     font-size: 1.8rem;
+  }
+
+  .operation.operation--transfer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .movements {
+    width: 100%;
+    height: 200px;
   }
 }
 
@@ -370,5 +383,18 @@ h2 {
 
   .form__btn {
     font-size: 1.5rem;
+  }
+
+  .operation.operation--transfer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .movements {
+    width: 100%;
+    height: 200px;
   }
 }
