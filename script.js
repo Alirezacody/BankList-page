@@ -254,9 +254,9 @@ btnSort.addEventListener("click", (e) => {
 });
 
 
-const a = prompt('input your num a:');
-const b = prompt('input your num b:');
-const c = prompt('input your num c:');
+// const a = prompt('input your num a:');
+// const b = prompt('input your num b:');
+// const c = prompt('input your num c:');
 
 // const calcDelta = function(a , b ,c){
 //   const DELTA = (b**2) - (4*a*c);
